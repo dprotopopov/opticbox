@@ -124,7 +124,7 @@ namespace fzp
                 using (var builder = new FzpBuilder
                 {
                     PlateMode =
-                        Smooth ? FzpBuilder.FresnelZonePlateMode.Sinusoidal : FzpBuilder.FresnelZonePlateMode.Binary,
+                        Smooth ? FzpBuilder.FzpMode.Sinusoidal : FzpBuilder.FzpMode.Binary,
                     DpiX = DpiX,
                     DpiY = DpiY,
                     Distance = BoxDeep,
